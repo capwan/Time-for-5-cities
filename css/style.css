@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,500&display=swap");
+
+body {
+    font-family: IBM Plex Mono, monospace;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 1.5;
+
+    background-color: #111118;
+    color: #ffffff;
+}
+
+section.times div {
+    padding: 24px 36px 24px 36px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+section.times output {
+    margin: 33px;
+    padding: 1px;
+}
+
+section.times h2:before {
+    content: "";
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    background-color: #33333a;
+    border-radius: 50%;
+    margin: 0 0.5em 0 0;
+    vertical-align: -0.05em;
+    transform: background-color 0.5s;
+}
+
+section.times div.open h2:before {
+    background-color: #fff182;
+}
+
+@media (max-width: 800px) {
+    section.times h2 {
+        font-size: 24px;
+    }
+
+    section.times output {
+        font-size: 24px;
+        margin: 20px;
+        padding: 1px;
+    }
+}
+
+
+/* @bycapwan */ 
